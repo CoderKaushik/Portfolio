@@ -34,8 +34,8 @@ a {
     /* background-image: repeating-radial-gradient(#5259a3 80%, #29439a); */
     /* background-image: radial-gradient(#122044, #0F172A); */
     /* background-image: radial-gradient(#243760 50%, #0F172A 50%);  */
-    background-image: radial-gradient(rgba(46, 65, 116, 0.5) 50%, rgba(31, 47, 84, 0.5) 50%);
-
+    /* background-image: radial-gradient(rgba(46, 65, 116, 0.5) 50%, rgba(31, 47, 84, 0.5) 50%); */
+    background-image: radial-gradient(circle at center, rgba(46, 65, 116, 0.5) 30%, rgba(31, 47, 84, 0.5) 50%);
     filter: blur(250px);
     transition: all ease-out;
     position: fixed;

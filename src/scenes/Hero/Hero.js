@@ -1,5 +1,6 @@
 import "./hero.css";
-import Me from "./avatar.png";
+// import Me from "./isometric-data-dashboard-with-infographics-and-statistics.gif";
+import Me from "./techny-finding-bugs-in-the-code.gif";
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
 
 const Hero = () => {

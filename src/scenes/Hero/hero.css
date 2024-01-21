@@ -36,6 +36,7 @@
   width: 40%;
   display: flex;
   align-items: center;
+  overflow: hidden;
 }
 
 .hey {
@@ -117,12 +118,16 @@
 
 .my-image {
   position: relative;
-  /* animation: float 3s infinite; */
+  animation: float 5s infinite;
   /* max-width: 100%; */
-  /* width: 100%; */
-  /* height: 70%; */
+  width: 100%;
+  height: 80%;
   z-index: -1;
   top: -2rem;
+  /* background: radial-gradient(circle, white 50%, transparent 80%); */
+  /* background: radial-gradient(circle, white 30%, #0F172A 70%); */
+  /* background: radial-gradient(circle, rgba(165, 212, 243, 0.9) 30%, #0F172A 70%); */
+  background: radial-gradient(circle, rgba(151, 207, 245, 0.9) 40%, #0F172A 70%);
   /* max-height: 80%; */
 }
 

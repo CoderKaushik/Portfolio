@@ -1,8 +1,10 @@
 import React from 'react'
 import './footer.css'
-import Footerimage from './footerimage.png'
+// import Footerimage from './Untitled-removebg-preview.png'
+import Footerimage from './Untitled-removebg-preview-removebg-preview.png'
 import IIIT from './iiitkota.png'
 import GDSC from './gdsclogo.png'
+import Network from './network.png'
 
 const footer = () => {
   return (
@@ -16,13 +18,13 @@ const footer = () => {
               Vice President - IIITians Network | Google DSC PR - Outreach Lead | B.Tech. CSE IIITK'26 | MERN Stack Dev | Web Team'23 - IIIT Kota
               </p>
               <div className='footer-logos'>
+              <img src={Network}/>
               <img src={GDSC}/>
               <img src={IIIT}/>
-              <img src={GDSC}/>
               </div>
             </div>
             <div className='footer-box image-footer'>
-              <img src={Footerimage}/>
+              <img src={Footerimage} className='footer-image'/>
             </div>
         </div>
         <hr />
