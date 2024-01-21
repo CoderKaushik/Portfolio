@@ -1,0 +1,225 @@
+@keyframes float {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  
+
+.hero-main {
+  position: relative;
+  /* border: 2px solid white; */
+  width: 85vw;
+  height: 90vh;
+  left: 8vw;
+  top: 10vh;
+  /* top: 7rem; */
+  /* z-index: -111; */
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 1vw;
+}
+
+.hero-content {
+  /* border: 2px solid white; */
+  height: 92%;
+  width: 60%;
+  padding-top: 9vh;
+}
+
+.hero-me {
+  /* border: 2px solid white; */
+  height: 100%;
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
+
+.hey {
+  /* display: inline; */
+  /* background: linear-gradient(90deg, #FFD700, #FFA500); */
+  /* background: linear-gradient(90deg, #FF8C00, #FF0000); */
+  background: linear-gradient(90deg, #1e90ff, #00bfff);
+  background-clip: text;
+  color: transparent;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  /* margin-top: 10vh;
+    margin-left: 10vw; */
+    margin-right: 0;
+    margin-top: 4vh;
+    margin-bottom: 1vh;
+  font-size: 7rem;
+}
+
+.name-container {
+  font-family: "arial";
+  font-size: 24px;
+  /* display: grid; */
+  /* place-items:; */
+  /* width: 50vw; */
+}
+
+.name {
+  /* background: linear-gradient(90deg, #FF8C00, #FF0000); */
+  /* background: linear-gradient(90deg, #FFD700, #FFA500); */
+  background: linear-gradient(90deg, #40e0d0, #6495ed);
+  background-clip: text;
+  color: transparent;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  font-size: 3rem;
+  margin-top: 5vh;
+  /* margin-left: -0.5vw; */
+}
+
+.name-animated {
+  font-size: 3rem;
+}
+
+.my-name {
+  margin-left: 0;
+  /* color: dodgerblue; */
+}
+
+.bio {
+  /* background: linear-gradient(90deg, #4682B4, #1E90FF); */
+  /* background: linear-gradient(90deg, #7B68EE, #4169E1); */
+  /* background: linear-gradient(90deg, #483D8B, #191970); */
+  /* background: linear-gradient(90deg, #6495ED, #0000CD); */
+  color: #e5e7eb;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  font-size: 1.5rem;
+  left: -1rem;
+}
+
+.email {
+  color: #e5e7eb;
+  position: relative;
+  bottom: -5rem;
+  display: inline;
+  left: -1rem;
+}
+
+.resume {
+  margin-left: 2rem;
+}
+
+.email:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  transition: all 300ms ease-in;
+}
+
+.my-image {
+  position: relative;
+  /* animation: float 3s infinite; */
+  /* max-width: 100%; */
+  /* width: 100%; */
+  /* height: 70%; */
+  z-index: -1;
+  top: -2rem;
+  /* max-height: 80%; */
+}
+
+@media only screen and (max-width: 1100px) {
+  .hero-main {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    height: 160vh;
+    /* top: 40vh; */
+    /* height: 140vh; */
+  }
+
+  .email {
+    display: none;
+  }
+
+  .hero-content > h1, h2{
+    text-align: center;
+    position: relative;
+    right: 5vw;
+  }
+
+  .hero-content > p {
+    text-align: center;
+    position: relative;
+    left: 0.35vw;
+  }
+
+  .my-name {
+    font-size: 2.5rem;
+  }
+
+  .hey {
+    font-size: 5rem;
+    margin-left: 10vw;
+  }
+
+  .hero-content {
+    height: 20%;
+    width: 80vw;
+  }
+
+  .hero-me {
+    width: 100%;
+    height: 80%;
+  }
+
+  .my-image {
+    max-width: 90%;
+    max-height: 90%;
+    /* margin-top: 2rem; */
+    position: relative;
+  }
+}
+
+@media only screen and (max-width: 777px) {
+
+  .hero-content {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hey {
+    font-size: 3.5rem;
+  }
+
+  .name {
+    font-size: 2rem;
+  }
+
+  .bio {
+    font-size: 1.5rem;
+  }
+
+  .hero-me {
+    align-items: center;
+  }
+
+  .hero-main {
+    height: 140vh;
+  }
+
+  .my-image {
+    position: absolute;
+    width: 100%;
+    height: 40%;
+    align-items: flex-end;
+  }
+}
+
+@media only screen and (max-height: 340px) {
+  .my-image {
+    display: none;
+  }
+}
