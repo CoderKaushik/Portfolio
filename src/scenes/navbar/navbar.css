@@ -13,10 +13,10 @@
 
 .logo-nav {
     /* border: 2px solid black; */
-    width: 25%;
+    width: 30%;
     height: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
 
@@ -42,7 +42,7 @@
 
 .links-nav {
     /* border: 2px solid black; */
-    width: 75%;
+    width: 70%;
     height: 100%;
     display: flex;
     justify-content: flex-end;
@@ -98,6 +98,11 @@
         text-align: center;
         margin-bottom: 1rem;
     }
+
+    .links-nav > ul {
+        display: none;
+    }
+
 }
 
 .mobile_menu {
@@ -108,25 +113,7 @@
 
 @media only screen and (max-width : 963px) {
     
-    .links-nav.is-open {
-        display: flex;
-        flex-direction: column;
-        align-items: center; /* Center items vertically */
-    }
 
-    .mobile_menu {
-        display: block;
-        cursor: pointer;
-        text-align: center;
-        margin-top: 1rem; /* Add some spacing at the top */
-    }
-
-    .links-nav.is-open .item-nav {
-        display: block;
-        width: 100%;
-        text-align: center;
-        margin-bottom: 1rem;
-    }
     
 }
 
