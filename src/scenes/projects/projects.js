@@ -20,7 +20,7 @@ const projects = () => {
             </div>
             <div className="content-project">
               <div className="content-p">
-                <h2>The Red Apple Shop</h2>
+                <h2 className="ras">The Red Apple Shop</h2>
                 <p>Crafted a responsive front-end for a grocery shop website using HTML, CSS, and Bootstrap. Integrated dynamic features like interactive sliders and real-time updates with JavaScript. Employed Git for version control, hosted the project on GitHub, and implemented client-side form validation for enhanced user input accuracy.</p>
                 <div className="button-container">
                 <motion.button

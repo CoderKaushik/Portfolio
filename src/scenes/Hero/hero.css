@@ -240,10 +240,15 @@
 
   .hey {
     margin-top: 0;
+    font-size: 50px;
   }
 
-  .name {
-    font-size: 2.5rem;
+  .my-name {
+    font-size: 40px;
+  }
+
+  .bio {
+    font-size: 20px;
   }
 
   .hero-content{

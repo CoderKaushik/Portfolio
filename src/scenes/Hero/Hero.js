@@ -18,7 +18,7 @@ const Hero = () => {
         <h1 className="hey">Hey there!</h1>
         <div className="name-container">
           <h2 className="name">
-            <p className="my-name" id="animated-text">I am <span className="name name-animated">{text}</span>
+            <p className="my-name" id="animated-text">I am<br /> <span className="name name-animated">{text}</span>
             <span style={{color: 'dodgerblue'}}><Cursor cursorStyle='|' /></span>
             </p>
           </h2>
