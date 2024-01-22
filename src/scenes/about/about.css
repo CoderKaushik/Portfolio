@@ -184,3 +184,32 @@
         width: 80%;
     }
 }
+
+@media only screen and (max-width : 450px ) {
+
+    .content-skills{
+        height: 40%;
+        width: 90%;
+    }
+
+    .ed-section{
+        width: 90%;
+        height: 20%;
+    }
+
+    .ed-logo > img {
+        width: 100%;
+    }
+
+    .paras {
+        text-align: center;
+    }
+
+    .ed-info {
+        gap: 1vh;
+    }
+
+    .card > img {
+        width: 80%;
+    }
+}

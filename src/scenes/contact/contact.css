@@ -125,3 +125,27 @@
     height: 70%;
   }
 }
+
+@media only screen and (max-width: 450px) {
+
+  .contact-sub {
+    width: 100%;
+  }
+
+  .contact-info{
+    width: 100%;
+  }
+
+  .contact-form {
+    width: 90%;
+  }
+
+  .contact-gif {
+    width: 100%;
+  }
+
+  .contact-gif > img {
+    width: 100%;
+  }
+
+}

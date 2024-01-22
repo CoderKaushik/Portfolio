@@ -24,7 +24,7 @@ const about = () => {
   return (
     <div className="top">
       <div className="main">
-        <div className="heading">
+        <div className="heading h-about">
           <h1 id="about">About</h1>
         </div>
         <div className="content">
