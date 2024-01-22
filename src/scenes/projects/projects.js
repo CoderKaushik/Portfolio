@@ -22,11 +22,18 @@ const projects = () => {
               <div className="content-p">
                 <h2>The Red Apple Shop</h2>
                 <p>Crafted a responsive front-end for a grocery shop website using HTML, CSS, and Bootstrap. Integrated dynamic features like interactive sliders and real-time updates with JavaScript. Employed Git for version control, hosted the project on GitHub, and implemented client-side form validation for enhanced user input accuracy.</p>
+                <div className="button-container">
                 <motion.button
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.9 }}
                   transition={{ type: "spring", stiffness: 400, damping: 10 }}
-                >Check it out</motion.button>
+                >GitHub Repo</motion.button>
+                <motion.button
+                  whileHover={{ scale: 1.1 }}
+                  whileTap={{ scale: 0.9 }}
+                  transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                >View Live</motion.button>
+                </div>
               </div>
             </div>
           </div>
@@ -40,11 +47,16 @@ const projects = () => {
               <div className="content-p">
               <h2>Portfolio Website</h2>
                 <p>Designed and developed a portfolio website using React, hosted on Vercel with a custom domain. Integrated Framer Motion for smooth animations, creating an engaging and visually appealing user experience. Highlighted skills, projects, and achievements, showcasing a dynamic and interactive presentation of professional information.</p>
+                <div className="button-container"><motion.button
+                  whileHover={{ scale: 1.1 }}
+                  whileTap={{ scale: 0.9 }}
+                  transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                >GitHub Repo</motion.button>
                 <motion.button
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.9 }}
                   transition={{ type: "spring", stiffness: 400, damping: 10 }}
-                >Check it out</motion.button>
+                >View Live</motion.button></div>
               </div>
             </div>
           </div>
@@ -61,7 +73,7 @@ const projects = () => {
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.9 }}
                   transition={{ type: "spring", stiffness: 400, damping: 10 }}
-                >Check it out</motion.button>
+                >GitHub Repo</motion.button>
               </div>
             </div>
           </div>
@@ -73,11 +85,16 @@ const projects = () => {
               <div className="content-p">
               <h2>Trvl</h2>
                 <p>Built a responsive React.js FrontEnd for a travel agency website, incorporating React Router for seamless navigation. Ensured optimal user experience across devices, applied modern design principles for aesthetics, and deployed the project efficiently on Vercel for hosting.</p>
+                <div className="button-container"><motion.button
+                  whileHover={{ scale: 1.1 }}
+                  whileTap={{ scale: 0.9 }}
+                  transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                >GitHub Repo</motion.button>
                 <motion.button
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.9 }}
                   transition={{ type: "spring", stiffness: 400, damping: 10 }}
-                >Check it out</motion.button>
+                >View Live</motion.button></div>
               </div>
             </div>
           </div>

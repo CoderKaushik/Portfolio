@@ -113,6 +113,13 @@ h2 {
     color: transparent;
 }
 
+.button-container {
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1vw;
+}
+
 button {
     width: 25%;
     padding: 12px;
