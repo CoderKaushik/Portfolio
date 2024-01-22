@@ -24,8 +24,8 @@ const about = () => {
   return (
     <div className="top">
       <div className="main">
-        <div className="heading h-about">
-          <h1 id="about">About</h1>
+        <div className="heading">
+          <h1 id="about" className="aboutt">About</h1>
         </div>
         <div className="content">
           <div className="content-skills">
@@ -140,7 +140,7 @@ const about = () => {
                   <h2>Udemy</h2>
                   <div className="paras">
                     <p>
-                      The Complete 2023 Web Development Bootcamp - Angela Yu (2023)
+                      The Complete 2023 Web Development Bootcamp (2023)
                     </p>
 
                   </div>

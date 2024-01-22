@@ -178,6 +178,7 @@ button {
     .content-p > h2, p {
         /* margin-left: 20rem; */
         left: 0.5rem;
+        text-align: center;
     }
 }
 

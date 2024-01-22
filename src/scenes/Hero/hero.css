@@ -231,17 +231,32 @@
 
 @media only screen and (max-width : 450px ) {
   .hero-main{
-    height: 100vh;
+    height: 90vh;
   }
 
   .hero-me{
     justify-content: center;
-    align-items: center;
+  }
+
+  .hey {
+    margin-top: 0;
+  }
+
+  .name {
+    font-size: 2.5rem;
+  }
+
+  .hero-content{
+    height: 70%;
   }
 
   .my-image{
     height: 80%;
     width: 100%;
+  }
+
+  .hero-me {
+    display: none;
   }
 
   .heading {
