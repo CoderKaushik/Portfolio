@@ -160,6 +160,7 @@ button {
 
     .image-project img {
         width: 430px;
+        transition: none;
     }
 
     .content-project {
@@ -184,7 +185,7 @@ button {
 
 @media only screen and (max-width: 450px ) {
     .image-project > img {
-        width: 95%;
+        width: 100%;
     }
 
     .button-container {
