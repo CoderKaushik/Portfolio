@@ -23,16 +23,16 @@ const projects = () => {
                 <h2 className="ras">The Red Apple Shop</h2>
                 <p>Crafted a responsive front-end for a grocery shop website using HTML, CSS, and Bootstrap. Integrated dynamic features like interactive sliders and real-time updates with JavaScript. Employed Git for version control, hosted the project on GitHub, and implemented client-side form validation for enhanced user input accuracy.</p>
                 <div className="button-container">
-                <motion.button
+                <a href="https://github.com/CoderKaushik/The-Red-Apple-Shop" target="_blank"><motion.button
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.9 }}
                   transition={{ type: "spring", stiffness: 400, damping: 10 }}
-                >GitHub Repo</motion.button>
-                <motion.button
+                >GitHub Repo</motion.button></a>
+                <a href="https://coderkaushik.github.io/The-Red-Apple-Shop/" target="_blank"><motion.button
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.9 }}
                   transition={{ type: "spring", stiffness: 400, damping: 10 }}
-                >View Live</motion.button>
+                >View Live</motion.button></a>
                 </div>
               </div>
             </div>
@@ -47,16 +47,16 @@ const projects = () => {
               <div className="content-p">
               <h2>Portfolio Website</h2>
                 <p>Designed and developed a portfolio website using React, hosted on Vercel with a custom domain. Integrated Framer Motion for smooth animations, creating an engaging and visually appealing user experience. Highlighted skills, projects, and achievements, showcasing a dynamic and interactive presentation of professional information.</p>
-                <div className="button-container"><motion.button
+                <div className="button-container"><a href="https://github.com/CoderKaushik/Portfolio" target="_blank"><motion.button
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.9 }}
                   transition={{ type: "spring", stiffness: 400, damping: 10 }}
-                >GitHub Repo</motion.button>
-                <motion.button
+                >GitHub Repo</motion.button></a>
+                <a href="https://www.hiteshwarkaushik.tech" target="_blank"><motion.button
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.9 }}
                   transition={{ type: "spring", stiffness: 400, damping: 10 }}
-                >View Live</motion.button></div>
+                >View Live</motion.button></a></div>
               </div>
             </div>
           </div>
@@ -69,11 +69,11 @@ const projects = () => {
               <div className="content-p">
               <h2>Sociopedia</h2>
                 <p>Created a MERN stack social media app with RESTful API design for seamless front-end to back-end communication. Implemented secure user authentication, used MongoDB for flexible data modeling, and employed serverless architecture on Vercel for scalability and cost-effectiveness.</p>
-                <motion.button
+                <a href="https://github.com/CoderKaushik/SocialMediaApp/tree/main/SM%20Project" target="_blank"><motion.button
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.9 }}
                   transition={{ type: "spring", stiffness: 400, damping: 10 }}
-                >GitHub Repo</motion.button>
+                >GitHub Repo</motion.button></a>
               </div>
             </div>
           </div>
@@ -85,16 +85,16 @@ const projects = () => {
               <div className="content-p">
               <h2>Trvl</h2>
                 <p>Built a responsive React.js FrontEnd for a travel agency website, incorporating React Router for seamless navigation. Ensured optimal user experience across devices, applied modern design principles for aesthetics, and deployed the project efficiently on Vercel for hosting.</p>
-                <div className="button-container"><motion.button
+                <div className="button-container"><a href="https://github.com/CoderKaushik/TRVL" target="_blank"><motion.button
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.9 }}
                   transition={{ type: "spring", stiffness: 400, damping: 10 }}
-                >GitHub Repo</motion.button>
-                <motion.button
+                >GitHub Repo</motion.button></a>
+                <a href="https://ck-trvl.vercel.app/" target="_blank"><motion.button
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.9 }}
                   transition={{ type: "spring", stiffness: 400, damping: 10 }}
-                >View Live</motion.button></div>
+                >View Live</motion.button></a></div>
               </div>
             </div>
           </div>
