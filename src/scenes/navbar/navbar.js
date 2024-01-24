@@ -2,6 +2,8 @@ import { useState } from "react";
 import React from "react";
 import "./navbar.css";
 import hkLogo from "../../scenes/hkLogo.jpg";
+import MenuIcon from '@mui/icons-material/Menu';
+import CloseIcon from '@mui/icons-material/Close';
 // import { useState } from "react";
 import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
 
@@ -69,7 +71,8 @@ const Navbar = () => {
               target="_blank"
             >Resume</a></li>
           </ul>
-          <div className="mobile_menu" onClick={toggleMenu}>Trigger</div>
+          <div className="mobile_menu" onClick={toggleMenu}><li className="Menu-Navbar"><MenuIcon /></li>
+            <li className="Close-Navbar"><CloseIcon /></li></div>
         </div>
       </div>
     </div>

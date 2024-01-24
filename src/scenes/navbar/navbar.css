@@ -69,6 +69,14 @@
     transition: all 100ms ease-in;
     color: dodgerblue;
 }
+
+/* .Menu-Navbar {
+    display: none;
+}
+
+.Close-Navbar {
+    display: none;
+} */
   
 @media only screen and (max-width : 1355px) {
 
@@ -106,9 +114,11 @@
 
 /* at 963 px I'm supposed to turn to mobile nav */
 
-@media only screen and (max-width : 963px) {
+@media only screen and (max-width : 450px) {
     
-
+    .myname {
+        font-size: 1.8rem;
+    }
     
 }
 
