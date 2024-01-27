@@ -15,7 +15,7 @@ import Node from "./logos/icons8-nodejs.svg";
 import Twnd from "./logos/icons8-tailwindcss.svg";
 import Ss from "./logos/icons8-sass.svg";
 import Git from "./logos/icons8-git.svg";
-import Github from "./logos/icons8-github-96.png";
+import Github from "./logos/icons8-github.svg";
 import IIIT from "./logos/iiitkota.png";
 import Fcc from "./logos/fcc_primary_small.svg";
 import Udemy from "./logos/logo-udemy.svg";
