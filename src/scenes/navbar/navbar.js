@@ -2,9 +2,8 @@ import { useState } from "react";
 import React from "react";
 import "./navbar.css";
 import hkLogo from "../../scenes/hkLogo.jpg";
-import MenuIcon from '@mui/icons-material/Menu';
-import CloseIcon from '@mui/icons-material/Close';
-// import { useState } from "react";
+// import MenuIcon from '@mui/icons-material/Menu';
+// import CloseIcon from '@mui/icons-material/Close';
 import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
 
 const Navbar = () => {
@@ -15,7 +14,6 @@ const Navbar = () => {
   }
   return (
     <div id="hero">
-      {/* <h1>Heyy there Anushka</h1> */}
       <div className="main-nav">
         <div className="logo-nav">
           <img src={hkLogo} alt="HK Logo" />
@@ -71,9 +69,10 @@ const Navbar = () => {
               target="_blank"
             >Resume</a></li>
           </ul>
-          <div className="mobile_menu" onClick={toggleMenu}><li className="Menu-Navbar"><MenuIcon /></li>
-            <li className="Close-Navbar"><CloseIcon /></li></div>
         </div>
+        {/* <div id="Mobile">
+        <i id="bar" className={this.state.clicked ? "fa-solid fa-bars" : "fa-solid fa-xmark"}></i>
+        </div> */}
       </div>
     </div>
   );

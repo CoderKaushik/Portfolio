@@ -175,6 +175,7 @@
   .hero-me {
     width: 100%;
     height: 80%;
+    display: none;
   }
 
   .my-image {
