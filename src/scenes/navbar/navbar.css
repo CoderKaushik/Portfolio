@@ -54,7 +54,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: #e5e7eb;
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
 }
@@ -65,18 +65,9 @@
 
 .item-nav:hover {
     cursor: pointer;
-    font-size: 110%;
     transition: all 100ms ease-in;
     color: dodgerblue;
 }
-
-/* .Menu-Navbar {
-    display: none;
-}
-
-.Close-Navbar {
-    display: none;
-} */
   
 @media only screen and (max-width : 1355px) {
 
@@ -106,10 +97,6 @@
         display: none;
     }
 
-}
-
-.mobile_menu {
-    display: none;
 }
 
 /* at 963 px I'm supposed to turn to mobile nav */

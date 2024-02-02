@@ -34,12 +34,9 @@ const Contact = () => {
           <div className="contact-form">
             <h1>Connect with me</h1>
             <form ref={form} onSubmit={sendEmail}>
-              <label>Name</label>
-              <input type="text" name="user_name" />
-              <label>Email</label>
-              <input type="email" name="user_email" />
-              <label>Message</label>
-              <textarea name="message" style={{'height' : '100px'}}/>
+              <input type="text" name="user_name" placeholder="Name"/>
+              <input type="email" name="user_email" placeholder="Email"/>
+              <textarea name="message" placeholder="Message" style={{'height' : '30vh', 'padding-top' : ' 1rem', 'fontFamily' : 'Cambria'}}/>
               <input type="submit" value="Send" />
             </form>
           </div>

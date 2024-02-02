@@ -1,9 +1,6 @@
 import { useState } from "react";
 import React from "react";
 import "./navbar.css";
-import hkLogo from "../../scenes/hkLogo.jpg";
-// import MenuIcon from '@mui/icons-material/Menu';
-// import CloseIcon from '@mui/icons-material/Close';
 import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
 
 const Navbar = () => {
@@ -16,7 +13,6 @@ const Navbar = () => {
     <div id="hero">
       <div className="main-nav">
         <div className="logo-nav">
-          <img src={hkLogo} alt="HK Logo" />
           <p className="myname">
             Hiteshwar <span className="surname">Kaushik</span>
           </p>
