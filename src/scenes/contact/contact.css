@@ -53,7 +53,7 @@
 
 .contact-form > h1 {
   text-align: center;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Apply styles to form elements */
@@ -64,10 +64,6 @@
 
 .contact-form input {
   height: 2.5rem;
-}
-
-placeholder {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .contact-form input,
@@ -95,7 +91,7 @@ placeholder {
   padding: 0.7rem 1rem;
   cursor: pointer;
   border-radius: 0.3rem;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 1.2rem;
 }
 

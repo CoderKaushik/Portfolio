@@ -23,7 +23,8 @@
 
 .heading-projects h1 {
     color: white;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
 }
 
 .container-projects {
@@ -126,7 +127,7 @@ button {
     border-radius: 10px;
     background-color: dodgerblue;
     margin-left: 1rem;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: #e5e7eb;
     border: none;
     cursor: pointer;
