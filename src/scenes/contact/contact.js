@@ -32,9 +32,9 @@ const Contact = () => {
           <div className="contact-form">
             <h1>Connect with me</h1>
             <form ref={form} onSubmit={sendEmail}>
-              <input type="text" name="from_name" placeholder="Name"/>
-              <input type="email" name="user_email" placeholder="Email"/>
-              <textarea name="message" placeholder="Your Message" style={{'height' : '25vh', 'padding-top' : ' 1rem', 'fontFamily' : 'Cambria'}}/>
+              <input type="text" name="from_name" placeholder="Name" required/>
+              <input type="email" name="user_email" placeholder="Email" required/>
+              <textarea name="message" placeholder="Your Message" required style={{'height' : '25vh', 'padding-top' : ' 1rem', 'fontFamily' : 'Cambria'}}/>
               <input type="submit" value="Send" />
             </form>
           </div>
