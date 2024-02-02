@@ -1,7 +1,6 @@
 import React, { useRef, useEffect } from "react";
 import "./contact.css";
 import DeveloperGif from "./outline-male-programmer-having-online-meeting.gif";
-// import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 import emailjs from '@emailjs/browser';
 
 const Contact = () => {
@@ -20,7 +19,6 @@ const Contact = () => {
   };
 
   useEffect(() => {
-    // Initialize emailjs library with your user ID
     emailjs.init('MBxSBvTT0sv4FOyR_');
   }, []);
 
@@ -34,9 +32,9 @@ const Contact = () => {
           <div className="contact-form">
             <h1>Connect with me</h1>
             <form ref={form} onSubmit={sendEmail}>
-              <input type="text" name="user_name" placeholder="Name"/>
+              <input type="text" name="from_name" placeholder="Name"/>
               <input type="email" name="user_email" placeholder="Email"/>
-              <textarea name="message" placeholder="Message" style={{'height' : '25vh', 'padding-top' : ' 1rem', 'fontFamily' : 'Cambria'}}/>
+              <textarea name="message" placeholder="Your Message" style={{'height' : '25vh', 'padding-top' : ' 1rem', 'fontFamily' : 'Cambria'}}/>
               <input type="submit" value="Send" />
             </form>
           </div>
