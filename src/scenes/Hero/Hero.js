@@ -14,7 +14,6 @@ const Hero = () => {
     // <div>
     <div className="hero-main">
       <div className="hero-content">
-        {/* <div className="inner-content"> */}
         <h1 className="hey">Hey there!</h1>
         <div className="name-container">
           <h2 className="name">
