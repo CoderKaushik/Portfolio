@@ -33,82 +33,82 @@ const about = () => {
               <h2>Skills</h2>
             </div>
             <div className="skill-cards">
-              <div>
+              <div title="C++">
                 <div className="card">
                   <img src={Cpp} />
                 </div>
               </div>
-              <div>
+              <div title="C">
                 <div className="card">
                   <img src={C} />
                 </div>
               </div>
-              <div>
+              <div title="Python">
                 <div className="card">
                   <img src={Py} />
                 </div>
               </div>
-              <div>
+              <div title="HTML">
                 <div className="card">
                   <img src={Html} />
                 </div>
               </div>
-              <div>
+              <div title="CSS">
                 <div className="card">
                   <img src={Css} />
                 </div>
               </div>
-              <div>
+              <div title="JavaScript">
                 <div className="card">
                   <img src={Js} />
                 </div>
               </div>
-              <div>
+              <div title="TypeScript">
                 <div className="card">
                   <img src={Ts} />
                 </div>
               </div>
-              <div>
+              <div title="MongoDB">
                 <div className="card">
                   <img src={Mongo} />
                 </div>
               </div>
-              <div>
+              <div title="Express.js">
                 <div className="card">
                   <img src={Ex} />
                 </div>
               </div>
-              <div>
+              <div title="React.js">
                 <div className="card">
                   <img src={R} />
                 </div>
               </div>
-              <div>
+              <div title="Node">
                 <div className="card">
                   <img src={Node} />
                 </div>
               </div>
-              <div>
+              <div title="Bootstrap">
                 <div className="card">
                   <img src={Bootstrap} />
                 </div>
               </div>
-              <div>
+              <div title="TailwindCSS">
                 <div className="card">
                   <img src={Twnd} />
                 </div>
               </div>
-              <div>
+              <div title="Sass">
                 <div className="card">
                   <img src={Ss} />
                 </div>
               </div>
-              <div>
+              <div title="Git">
                 <div className="card">
                   <img src={Git} />
                 </div>
               </div>
-              <div>
+              <div title="GitHub">
                 <div className="card">
                   <img src={Github} />
                 </div>

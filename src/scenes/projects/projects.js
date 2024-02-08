@@ -27,12 +27,12 @@ const projects = () => {
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.9 }}
                   transition={{ type: "spring", stiffness: 400, damping: 10 }}
-                >GitHub Repo</motion.button></a>
+                ><p style={{'textDecoration' : 'underline', 'marginLeft' : '0'}}>GitHub Repo</p></motion.button></a>
                 <a href="https://coderkaushik.github.io/The-Red-Apple-Shop/" target="_blank"><motion.button
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.9 }}
                   transition={{ type: "spring", stiffness: 400, damping: 10 }}
-                >View Live</motion.button></a>
+                ><p style={{'textDecoration' : 'underline', 'marginLeft' : '0'}}>View Live</p></motion.button></a>
                 </div>
               </div>
             </div>
@@ -51,12 +51,12 @@ const projects = () => {
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.9 }}
                   transition={{ type: "spring", stiffness: 400, damping: 10 }}
-                >GitHub Repo</motion.button></a>
+                ><p style={{'textDecoration' : 'underline', 'marginLeft' : '0'}}>GitHub Repo</p></motion.button></a>
                 <a href="https://www.hiteshwarkaushik.tech" target="_blank"><motion.button
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.9 }}
                   transition={{ type: "spring", stiffness: 400, damping: 10 }}
-                >View Live</motion.button></a></div>
+                ><p style={{'textDecoration' : 'underline', 'marginLeft' : '0'}}>View Live</p></motion.button></a></div>
               </div>
             </div>
           </div>
@@ -74,7 +74,7 @@ const projects = () => {
                   whileTap={{ scale: 0.9 }}
                   transition={{ type: "spring", stiffness: 400, damping: 10 }}
                   style={{'width' : '9rem'}}
-                >GitHub Repo</motion.button></a>
+                ><p style={{'textDecoration' : 'underline', 'marginLeft' : '0'}}>GitHub Repo</p></motion.button></a>
               </div>
             </div>
           </div>
@@ -90,12 +90,12 @@ const projects = () => {
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.9 }}
                   transition={{ type: "spring", stiffness: 400, damping: 10 }}
-                >GitHub Repo</motion.button></a>
+                ><p style={{'textDecoration' : 'underline'}}>GitHub Repo</p></motion.button></a>
                 <a href="https://ck-trvl.vercel.app/" target="_blank"><motion.button
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.9 }}
                   transition={{ type: "spring", stiffness: 400, damping: 10 }}
-                >View Live</motion.button></a></div>
+                ><p style={{'textDecoration' : 'underline', 'marginLeft' : '0'}}>View Live</p></motion.button></a></div>
               </div>
             </div>
           </div>
