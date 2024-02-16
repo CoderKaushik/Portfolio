@@ -124,8 +124,8 @@ const Navbar = () => {
                 <IoMdClose
                   className="close-icon"
                   style={{
-                    fontSize: "2rem",
-                    color: "white",
+                    fontSize: "1.8rem",
+                    color: "#e5e7eb",
                     marginRight: "1rem",
                     cursor: "pointer",
                   }}
@@ -135,8 +135,8 @@ const Navbar = () => {
                 <GiHamburgerMenu
                   className="hamburger-icon"
                   style={{
-                    fontSize: "2rem",
-                    color: "white",
+                    fontSize: "1.8rem",
+                    color: "#e5e7eb",
                     marginRight: "1rem",
                   }}
                 />
@@ -146,7 +146,7 @@ const Navbar = () => {
         </div>
       </div>
       {isOpen && (
-        <div className="modal" ref={modalRef}>
+        <div className={"modal"} ref={modalRef}  style={{ boxShadow: '0px 0px 100px rgba(0, 0, 0, 0.1)', padding: '1rem'}}>
           <ul>
             <li>
               <ScrollLink
