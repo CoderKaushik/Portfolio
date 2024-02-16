@@ -128,7 +128,6 @@ const about = () => {
                   <h2>IIIT Kota</h2>
                   <div className="paras">
                     <p>B.Tech. Computer Science and Engineering (2022-2026)</p>
-                    
                   </div>
                 </div>
               </div>
