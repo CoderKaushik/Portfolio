@@ -28,7 +28,7 @@ const Contact = () => {
         <div className="contact-gif">
           <img src={DeveloperGif} alt="Developer" className="Developer" />
         </div>
-        <div className="contact-info">
+        <div className="contact-info" id="contact-form" >
           <div className="contact-form">
             <h1>Connect with me</h1>
             <form ref={form} onSubmit={sendEmail}>

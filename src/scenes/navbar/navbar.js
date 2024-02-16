@@ -183,7 +183,7 @@ const Navbar = () => {
             </li>
             <li>
               <ScrollLink
-                to="contact"
+                to="contact-form"
                 smooth={true}
                 duration={500}
                 className="item-nav"
