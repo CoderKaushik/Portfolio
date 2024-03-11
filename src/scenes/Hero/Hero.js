@@ -33,7 +33,7 @@ const Hero = () => {
         </p>
         <p className="email resume">
           <a
-            href="https://drive.google.com/file/d/1UWDDwagBM0VBlQwjP8XZ7FkmQQkHBU_t/view"
+            href="https://drive.google.com/file/d/15ZPIo2yrarWmSniaxLyW2F4SGyl5v0D4/view?usp=sharing"
             target="_blank"
           >
             resume
