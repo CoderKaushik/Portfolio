@@ -107,7 +107,7 @@ const Navbar = () => {
             </li>
             <li className="item-nav">
               <a
-                href="https://drive.google.com/file/d/1UWDDwagBM0VBlQwjP8XZ7FkmQQkHBU_t/view"
+                href="https://drive.google.com/file/d/1v0_EVsDMn6gTcWsmof2zEE6Tbcj1ikIk/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={handleLinkClick}
@@ -146,7 +146,14 @@ const Navbar = () => {
         </div>
       </div>
       {isOpen && (
-        <div className={"modal"} ref={modalRef}  style={{ boxShadow: '0px 0px 100px rgba(0, 0, 0, 0.1)', padding: '1rem'}}>
+        <div
+          className={"modal"}
+          ref={modalRef}
+          style={{
+            boxShadow: "0px 0px 100px rgba(0, 0, 0, 0.1)",
+            padding: "1rem",
+          }}
+        >
           <ul>
             <li>
               <ScrollLink

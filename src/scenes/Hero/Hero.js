@@ -1,11 +1,11 @@
 import "./hero.css";
 // import Me from "./isometric-data-dashboard-with-infographics-and-statistics.gif";
 import Me from "./techny-finding-bugs-in-the-code.gif";
-import { useTypewriter, Cursor } from 'react-simple-typewriter';
+import { useTypewriter, Cursor } from "react-simple-typewriter";
 
 const Hero = () => {
   const [text] = useTypewriter({
-    words: ['Hiteshwar Kaushik', 'a web developer'],
+    words: ["Hiteshwar Kaushik", "a web developer"],
     loop: {},
     typeSpeed: 100,
     deleteSpeed: 50,
@@ -17,8 +17,12 @@ const Hero = () => {
         <h1 className="hey">Hey there!</h1>
         <div className="name-container">
           <h2 className="name">
-            <p className="my-name" id="animated-text">I am<br /> <span className="name name-animated">{text}</span>
-            <span style={{color: 'dodgerblue'}}><Cursor cursorStyle='|' /></span>
+            <p className="my-name" id="animated-text">
+              I am
+              <br /> <span className="name name-animated">{text}</span>
+              <span style={{ color: "dodgerblue" }}>
+                <Cursor cursorStyle="|" />
+              </span>
             </p>
           </h2>
         </div>
@@ -33,7 +37,7 @@ const Hero = () => {
         </p>
         <p className="email resume">
           <a
-            href="https://drive.google.com/file/d/1UWDDwagBM0VBlQwjP8XZ7FkmQQkHBU_t/view"
+            href="https://drive.google.com/file/d/1v0_EVsDMn6gTcWsmof2zEE6Tbcj1ikIk/view?usp=sharing"
             target="_blank"
           >
             resume
